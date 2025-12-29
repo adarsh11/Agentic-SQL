@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and databases
+*.log
+*.sql
+!retail_schema.sql  # We want to keep the schema if it's educational, but usually sql is ignored. 
+                    # User asked for "proper github repo", usually schema is fine to include if it's part of the project.
+                    # I will include it.
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Backend specific
+backend/debug_output.txt
+backend/test_output.log
+backend/test_results.txt
+backend/__pycache__/
+
+# Frontend specific
+frontend/node_modules/

@@ -1,0 +1,13 @@
+{
+    "name": "agentic-sql-frontend",
+    "version": "1.0.0",
+    "description": "Premium UI for Multi-Agent SQL System",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx serve ."
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "serve": "^14.2.0"
+    }
+}
